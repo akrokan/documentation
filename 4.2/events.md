@@ -24,7 +24,7 @@ La classe `Event` du framework Laravel vous permet de souscrire et d'écouter de
 
     $response = Event::fire('auth.login', array($user));
 
-La méthode fire retourne un tableau de réponses que vous pouvez utiliser pour controller ce qu'il se passe ensuite dans votre application
+La méthode `fire` retourne un tableau de réponses que vous pouvez utiliser pour controller ce qu'il se passe ensuite dans votre application
 
 #### Enregistrement à un événement avec priorité
 
